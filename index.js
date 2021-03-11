@@ -16,8 +16,12 @@ let bar = document.querySelector('.progress-bar');
 function barGrower(){
     if(progress == 100){
        progress = -10;
+       document.querySelector('BODY').style.backgroundColor = "white";
     }
     progress+= 10;
+        if(progress == 100) {
+        document.querySelector('BODY').style.backgroundColor = "black";
+    }
     console.log(progress);
     bar.style.width = `${progress}vw`;
 }
