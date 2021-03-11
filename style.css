@@ -1,0 +1,13 @@
+.container {
+  border: 3px solid black;
+}
+
+.progress-bar {
+  height: 20vh;
+  width: 0vw;
+  background-color: purple;
+}
+
+button {
+  display: block;
+}
